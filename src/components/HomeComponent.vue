@@ -15,7 +15,6 @@
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
       </div>
       <div class="btn-group">
-        <a href="#" class="btn">Hire</a>
         <a href="#contact" class="btn">Contact</a>
       </div>
     </div>
@@ -30,7 +29,7 @@
 export default {
     data(){
       return{
-          image:"https://www.simpleimageresizer.com/_uploads/photos/8046b1ee/slack.jpg"
+          image:"https://www.simpleimageresizer.com/_uploads/photos/2af582e4/slack.jpg"
         }
     }
 };
@@ -46,6 +45,7 @@ export default {
 section {
     min-height: 100vh;
     padding: 15rem 12% 10rem;
+    background: var(--bg-color);
 }
 .home{
     display: flex ;

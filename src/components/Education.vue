@@ -1,16 +1,37 @@
 <template>
   <div class="education" id="education">
-    <h2 class="heading">Education</h2>
+    <h2 class="heading text-white">Work Experience</h2>
     <div class="timeline-items">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+            <h3>Course of Videoediting</h3>
+            <p>
+              I have a course of Video editing i have a good grid with softwares like blender
+              after effects
+            </p>
+          </div>
+        
+      </div>
       <div class="timeline-item">
         <div class="timeline-dot"></div>
           <div class="timeline-date">2022</div>
           <div class="timeline-content">
-            <h3>Matriculation</h3>
+            <h3>Internship in Nextpak</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              officia eius omnis porro deserunt nobis in impedit vero magni
-              quia.
+              I have done an intership in nextpak in 2022 as a frontend developer
+            </p>
+          </div>
+        
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Amazon Va Internship</h3>
+            <p>
+              I Have done Internship in Ecomva as a Virtual Assitant in Amazon
             </p>
           </div>
         
@@ -19,24 +40,9 @@
         <div class="timeline-dot"></div>
           <div class="timeline-date">2024</div>
           <div class="timeline-content">
-            <h3>Intermediate</h3>
+            <h3>Internship in Nextpak</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              officia eius omnis porro deserunt nobis in impedit vero magni
-              quia.
-            </p>
-          </div>
-        
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-          <div class="timeline-date">2024</div>
-          <div class="timeline-content">
-            <h3>Start of University</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              officia eius omnis porro deserunt nobis in impedit vero magni
-              quia.
+              I have done an intership in nextpak in 2022 as a frontend developer
             </p>
           </div>
         

@@ -3,6 +3,7 @@
     <Portfolio></Portfolio>
     <HomeComponentVue ></HomeComponentVue>
     <EducationVue></EducationVue>
+    <ProjectsVue></ProjectsVue>
     <ServicesVue></ServicesVue>
     <ContactVue></ContactVue>
     <FooterVue></FooterVue>
@@ -15,6 +16,7 @@ import HomeComponentVue from './components/HomeComponent.vue'
 import EducationVue from './components/Education.vue'
 import ServicesVue from "./components/Services.vue"
 import ContactVue from './components/Contact.vue'
+import ProjectsVue from "./components/Projects.vue"
 import FooterVue from './components/Footer.vue'
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     EducationVue,
     ServicesVue,
     ContactVue,
-    FooterVue
+    FooterVue,
+    ProjectsVue
   },
   
 }
@@ -39,6 +42,7 @@ export default {
   outline: none;
   scroll-behavior: smooth;
   font-family: "Poppins",sans-serif;
+  
 }
 :root{
   --bg-color:#080808;

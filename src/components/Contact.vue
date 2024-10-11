@@ -1,9 +1,9 @@
 <template>
   <div class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span>
+    <h2 class="heading2">Contact <span>Me</span>
     </h2>
     <form >
-        <div class="input-group">
+        <div class="input-group group">
             <div class="input-box">
                 <input type="text" placeholder="Enter Full Name">
                 <input type="email" placeholder="Enter Email">
@@ -39,6 +39,11 @@ name:"ContactView"
 span{
 color:var(--main-color)
 }
+.group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -72,7 +77,7 @@ color:var(--main-color)
     align-items: center;
     justify-content: center;
     gap:3rem;
-    margin:5rem auto;
+    padding: 5rem 0;
     text-align: center;
 }
 .contact form .input-box{
@@ -97,6 +102,12 @@ flex-wrap: wrap;
 .contact form .btn{
     margin-top:2rem;
 
+}
+.heading2{
+    color:white;
+    font-size: 8rem;
+    text-align: center;
+    padding: 5rem 0;
 }
 @media(max-width:991px){
     .contact form{

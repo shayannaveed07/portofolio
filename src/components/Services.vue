@@ -1,6 +1,6 @@
 <template>
   <div class="services" id="services">
-    <h2 class="heading">Services</h2>
+    <h2 class="heading1">Services</h2>
     <div class="services-container">
       <div class="service-box">
         <div class="service-info">
@@ -63,7 +63,7 @@ export default {
 }
 .services-container{
     display:grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap:2.5rem;
     padding: 0 5rem;
@@ -95,7 +95,7 @@ transition: 0.4s ease-in-out;
 .service-info h4{
     font-size:3rem;
     font-weight:800;
-    line-height:2;
+    line-height:1;
 
 }
 .service-info p{
@@ -105,8 +105,11 @@ max-height:100px;
 line-height: 1.7;
 margin: auto;
 }
-.heading{
+.heading1{
     color:white;
+    font-size: 8rem;
+    text-align: center;
+    padding: 5rem 0;
 }
 @media(max-width: 1285px){
 .services-container{
